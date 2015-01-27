@@ -5,6 +5,5 @@ public class PrintArgs {
             System.out.println(arg);
         }
         System.out.println(args.length);
-
     }
 }
