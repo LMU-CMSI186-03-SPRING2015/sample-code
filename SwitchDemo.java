@@ -17,31 +17,31 @@ public class SwitchDemo {
                 // becomes April.
                 switch (month) {
                     case 1:  monthName = "January";
-                    break;
+                             break;
                     case 2:  monthName = "February";
-                    break;
+                             break;
                     case 3:  monthName = "March";
-                    break;
+                             break;
                     case 4:  monthName = "April";
-                    break;
+                             break;
                     case 5:  monthName = "May";
-                    break;
+                             break;
                     case 6:  monthName = "June";
-                    break;
+                             break;
                     case 7:  monthName = "July";
-                    break;
+                             break;
                     case 8:  monthName = "August";
-                    break;
+                             break;
                     case 9:  monthName = "September";
-                    break;
+                             break;
                     case 10: monthName = "October";
-                    break;
+                             break;
                     case 11: monthName = "November";
-                    break;
+                             break;
                     case 12: monthName = "December";
                     // Message if the month is any other number than 1-12.
                     default: System.out.println("What are you high? That's not a month.");
-                    break;
+                             break;
                 }
                 // Otherwise print out whatever name we got.
                 System.out.println(monthName);
